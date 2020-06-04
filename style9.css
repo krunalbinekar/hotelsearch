@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url("../hotels/images/bg.jfif");
+  background: url("bg.jfif");
   background-size: stretch;
 }
 .contact-form{
