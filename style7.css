@@ -1,0 +1,89 @@
+
+
+#diva,#divb,#divc{
+		border-radius:20px;
+	padding:70px 30px;
+		box-sizing:border-box;
+
+	margin-right:50px;
+margin-left:20px;	
+	width:350px;
+	text-align:justify;
+	background-color:black;
+	opacity:0.8;
+		color: #fff;
+
+}
+
+body{
+ background-image:url("../hotels/images/hotel2.jpg");
+ background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.nav1{
+	display:inline;
+	margin:20px;
+	text-align:center;
+}
+#div0{
+	opacity:0.6;
+	background-color:black;
+}
+#li1{
+	color:white;
+	font-size:20px;
+	display:inline;
+	margin-left:30px;
+	text-align:right;
+	font-weight:bold;
+}
+
+#ul1{
+	display:inline;
+}
+
+#marquee1{
+	color:powderblue;
+}
+#div2{
+	display:flex;
+	margin:20px;
+}
+
+#img1{
+	height:600px;
+	width:97%;
+	margin:20px;
+}
+
+
+#diva select,input[type="date"]
+{
+	width:100%;
+	margin-bottom:20px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:30px;
+	color:#fff;
+	font-size:16px;
+	
+}
+input[type="submit"]
+{
+	width:100%;
+	border:none;
+	outline:none;
+	height:25px;
+	background: red;
+	color:#fff;
+	font-size: 18px;
+	border-radius:20px;
+}
+
+ input[type="submit"]:hover{
+	background:green;
+}
+

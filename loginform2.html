@@ -1,0 +1,89 @@
+<!DOCTYPE.html>
+<html>
+<head>
+<title>Login Page</TITLE>
+<link rel	="stylesheet" type="text/css" href="style.css">
+<style>
+.nav1{
+	display:inline;
+	margin:20px;
+	text-align:center;
+}
+#div0{
+	background-color:black;
+	opacity:0.5;
+}
+#li1{
+	color:white;
+	font-size:20px;
+	display:inline;
+	margin-left:30px;
+	text-align:right;
+	font-weight:bold;
+}
+
+#ul1{
+	display:inline;
+	text-align:right;
+}
+
+
+#div1{
+	border:2px solid black;
+	background-color:black;
+	height:350px;
+	width:300px;
+	opacity:0.75;
+	margin:50px;
+}
+
+#logo{
+	 height:130px;
+	 width:130px
+	}
+#logo:hover{
+	transform:scale(0.8);
+
+#radius{
+	border-radius:30%;
+}
+#button1{
+	background-color:darkred;
+}
+#button1:hover{
+	transform:scale(0.9);
+}
+</style>
+</head>
+<body>
+<div id="div0">
+	<nav class=nav1>
+		<center><img src="..\hotels\images\logo3.png" height="150" width="200"></center><br/><br/>
+		<center><ul id="ul1">
+			<li id="li1"><a href="index.html" style="color:white">HOME</a></li>
+			<li id="li1"><a href="aboutus.html" style="color:white"> ABOUT US</a></li>
+			<li id="li1"><a href="contact3.html" style="color:white">CONTACT US</a></li>
+			<li id="li1"><a href="hotelhomepage.html" style="color:white">LOGIN</a></li>
+			<li id="li1"><a href="registrartionform2.html" style="color:white">SIGN UP</a></li>
+
+		</ul></center>
+	</nav>
+</div>
+<div class="Loginbox">
+	<img src="../hotels/images/loginlogo.png" class="avatar">
+	<center><h2>CUSTOMER LOGIN</h2></center>
+	<form>
+		<p><b>Username</b></p>
+		<input type="text" name="user" placeholder="Enter username" pattern="[a-bA-B]{10,}" title="Only characters are allowed" required>
+		<p><b>Password</b></p>
+		<input type="password" name="pass" placeholder="Enter Password" pattern=".{8,}" title="Eight or more characters" required>
+		<input type="submit" name="" value="Login">
+		<a href="#">Forgot passsword?</a><br/>
+		<a href="registrartionform2.html">Dont't have a account?</a>
+	</form>
+</div>
+
+
+</body>
+</head>
+</html>

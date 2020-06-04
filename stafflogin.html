@@ -1,0 +1,86 @@
+<!DOCTYPE.html>
+<html>
+<title>HOMEPAGE</TITLE>
+<head>
+<style>
+body{
+ background-image:url("D:/hotels/images/loginback1.jpg");
+}
+.nav1{
+	display:inline;
+	margin:20px;
+	text-align:center;
+}
+#div0{
+	background-color:black;
+	opacity:0.7;
+}
+#li1{
+	color:white;
+	font-size:20px;
+	display:inline;
+	margin-left:30px;
+	text-align:right;
+}
+
+#ul1{
+	display:inline;
+	text-align:right;
+}
+
+
+#div1{
+	border:2px solid black;
+	background-color:black;
+	height:350px;
+	width:300px;
+	opacity:0.75;
+	margin:50px;
+}
+
+#logo{
+	 height:130px;
+	 width:130px
+	}
+#logo:hover{
+	transform:scale(0.8);
+
+#radius{
+	border-radius:30%;
+}
+#button1{
+	background-color:darkred;
+}
+#button1:hover{
+	transform:scale(0.9);
+}
+</style>
+</head>
+<body>
+<div id="div0">
+	<nav class=nav1>
+		<center><img src="D:\hotels\images\logo3.png" height="150" width="200"></center><br/><br/>
+		<center><ul id="ul1">
+			<li id="li1"><a href="index.html" style="color:white">HOME</a></li>
+			<li id="li1"><a href="index.html" style="color:white"> ABOUT US</a></li>
+			<li id="li1"><a href="index.html" style="color:white">CONTACT US</a></li>
+			<li id="li1"><a href="hotelhomepage.html" style="color:white">LOGIN</a></li>
+			<li id="li1"><a href="reg.html" style="color:white">SIGN UP</a></li>
+
+		</ul></center>
+	</nav>
+</div>
+	<center>
+	<div id="div1">
+		<h2 style="color:white">STAFF LOGIN</h2>
+		<form action="#" method="post"><br/><br/>
+			<label style="color:white"><b>USER NAME</b></LABEL><BR/><br/>
+			<input "radius" type="text" name="user" placeholder="Enter your user name" required><br/><br/><br/>
+			<label style="color:white"><b>PASSWORD</b></label><br/><br/>
+			<input "radius" type="password" name="pass" placeholder="Enter Your password" pattern=".{8,}" title="Eight or more characters" required><br/><br/><br/>
+			<label style="color:white"><b>STAFF_ID</b></LABEL><BR/><br/>
+			<input "radius" type="text" name="user" placeholder="Enter your Unique ID" required><br/><br/><br/>
+			<button id="button1" onclick="#"><b>LOGIN</b></button><br/><br/>
+		</form>	
+	</div>
+	</center>
